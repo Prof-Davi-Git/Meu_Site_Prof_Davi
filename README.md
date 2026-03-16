@@ -1,2 +1,2 @@
 # Meu_Site_Prof_Davi
- Site de Filmes e Series
+ Esse é um site pessoal que listará meus Filmes e Séries Preferidos.
