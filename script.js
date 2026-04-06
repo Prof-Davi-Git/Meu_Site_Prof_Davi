@@ -14,7 +14,7 @@ let filmes = [
     
     {
     titulo: "Stranger Things",
-    imagem: "Imagens/StrangerThings_Filme.jpg",
+    imagem: "Imagens/Strangerthings_serie.jpg",
     descricao: "Um grupo de crianças enfrenta forças sobrenaturais e experimentos secretos em uma pequena cidade."
     }
 
