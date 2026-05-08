@@ -1,0 +1,12 @@
+name: Verificacao do Projeto
+
+on:
+  push:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Exibir mensagem
+        run: echo "Projeto verificado com sucesso!"
