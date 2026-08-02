@@ -45,8 +45,23 @@ export const series = [
         descricao: "Dark é uma série focada em viagens no tempo e multiversos."
     },
     {
-        titulo: "Game of thrones",
-        imagem: "Imagens/Game_of_Thrones.jpg",
-        descricao: "Game of Thrones é uma série de fantasia épica, famosa por sua disputa de poder pelo Trono de Ferro."
+        titulo: "Breaking Bad",
+        imagem: "Imagens/Breakingbad.jpg",
+        descricao: " A série acompanha Walter White e a sua transformação de um homem comum no chefão do tráfico."
+    },
+    {
+        titulo: "Peaky Blinders",
+        imagem: "Imagens/Peakyblinders.jpg",
+        descricao: "Peaky Blinders acompanha Thomas Shelby e sua gangue em Birmingham após a Primeira Guerra Mundial."
+    },
+    {
+        titulo: "Round 6",
+        imagem: "Imagens/Round6.jpg",
+        descricao: "Centenas de jogadores falidos aceitam um estranho convite para um jogo de sobrevivência. Onde um prêmio milionário aguarda."
+    },
+    {
+        titulo: "Avatar A lenda de Aang",
+        imagem: "Imagens/avataraang.jpg",
+        descricao: "Avatar: A Lenda de Aang acompanha Aang, um menino de 12 anos que acorda após cem anos congelado em um iceberg."
     }
 ];
