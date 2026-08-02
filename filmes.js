@@ -43,5 +43,10 @@ export const series = [
         titulo: "Dark",
         imagem: "Imagens/Dark_(série).jpg",
         descricao: "Dark é uma série focada em viagens no tempo e multiversos."
+    },
+    {
+        titulo: "Game of thrones",
+        imagem: "Imagens/Game_of_Thrones.jpg",
+        descricao: "Game of Thrones é uma série de fantasia épica, famosa por sua disputa de poder pelo Trono de Ferro."
     }
 ];
