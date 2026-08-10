@@ -4,8 +4,8 @@ import { filmes, series } from "./filmes.js";
     // FUNÇÃO CRIAR CARD
     // =========================
     
-    function criarCard(item){
-    
+    function criarCard(item, tipo){
+
         return `
             <div class="card">
     
@@ -17,9 +17,12 @@ import { filmes, series } from "./filmes.js";
     
                 <div class="botoes">
     
-                    <button onclick="assistir('${item.titulo}')">
+                    <a
+                        href="player.html?tipo=${tipo}&id=${item.id}"
+                        class="btnPlay"
+                    >
                         ▶ Assistir
-                    </button>
+                    </a>
     
                     <button onclick="favoritar('${item.titulo}')">
                         + Minha Lista
@@ -47,11 +50,11 @@ import { filmes, series } from "./filmes.js";
     
     
         filmes.forEach(function(f){
-            listaFilmes.innerHTML += criarCard(f);
+            listaFilmes.innerHTML += criarCard(f, "filme");
         });
-    
+        
         series.forEach(function(s){
-            listaSeries.innerHTML += criarCard(s);
+            listaSeries.innerHTML += criarCard(s, "serie");
         });
     
     }
@@ -77,6 +80,8 @@ import { filmes, series } from "./filmes.js";
         alert("⭐ Adicionado à sua lista: " + nome);
     
     }
+
+    window.favoritar = favoritar;
     
     
     // INICIAR
