@@ -352,15 +352,15 @@ body{
 
     display:grid;
 
-
     grid-template-columns:
         repeat(
             auto-fill,
-            minmax(210px, 1fr)
+            180px
         );
 
+    gap:15px;
 
-    gap:25px;
+    justify-content:flex-start;
 
 }
 
@@ -372,19 +372,25 @@ body{
 
 .cardCatalogo{
 
-    background:#1b1b1b;
+    width:180px;
 
+    min-width:180px;
+
+    max-width:180px;
+
+    background:#1b1b1b;
 
     border-radius:8px;
 
-
     overflow:hidden;
-
 
     transition:0.3s;
 
-
     position:relative;
+
+    display:flex;
+
+    flex-direction:column;
 
 }
 
@@ -404,9 +410,7 @@ body{
 
     width:100%;
 
-
-    height:300px;
-
+    height:250px;
 
     object-fit:cover;
 
@@ -415,14 +419,26 @@ body{
 
 .infoCard{
 
-    padding:15px;
+    padding:10px;
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
 
 }
 
 
 .infoCard h3{
 
+    font-size:16px;
+
     margin-bottom:10px;
+
+    min-height:38px;
+
+    overflow:hidden;
 
 }
 
@@ -434,11 +450,15 @@ body{
 
     color:#aaa;
 
+    font-size:12px;
 
-    font-size:13px;
+    line-height:1.3;
 
+    min-height:34px;
 
-    margin-bottom:12px;
+    margin-bottom:10px;
+
+    overflow:hidden;
 
 }
 
@@ -450,15 +470,11 @@ body{
 
     color:#bbb;
 
-
-    font-size:14px;
-
+    font-size:13px;
 
     line-height:1.4;
 
-
-    height:58px;
-
+    height:55px;
 
     overflow:hidden;
 
@@ -472,11 +488,11 @@ body{
 
     display:flex;
 
-
     gap:8px;
 
+    margin-top:auto;
 
-    margin-top:15px;
+    padding-top:12px;
 
 }
 
@@ -485,23 +501,19 @@ body{
 
     flex:1;
 
-
     background:#e50914;
-
 
     color:white;
 
-
     text-decoration:none;
-
 
     text-align:center;
 
-
-    padding:10px;
-
+    padding:8px;
 
     border-radius:5px;
+
+    font-size:13px;
 
 }
 
@@ -587,70 +599,3 @@ body{
 
 }
 
-/* ================================================= */
-/* ALTERAÇÃO 21/08 - ALINHAMENTO DOS CARDS CATÁLOGO */
-/* ================================================= */
-
-
-/* ALTERAÇÃO 21/08 - ORGANIZAR CARD EM COLUNA */
-
-.cardCatalogo{
-
-    display:flex;
-
-    flex-direction:column;
-
-}
-
-
-/* ALTERAÇÃO 21/08 - ÁREA INTERNA DO CARD */
-
-.infoCard{
-
-    flex:1;
-
-    display:flex;
-
-    flex-direction:column;
-
-}
-
-
-/* ALTERAÇÃO 21/08 - MESMO ESPAÇO PARA OS TÍTULOS */
-
-.infoCard h3{
-
-    min-height:44px;
-
-}
-
-
-/* ALTERAÇÃO 21/08 - MESMO ESPAÇO PARA OS DETALHES */
-
-.detalhes{
-
-    min-height:32px;
-
-}
-
-
-/* ALTERAÇÃO 21/08 - MESMO ESPAÇO PARA A DESCRIÇÃO */
-
-.descricao{
-
-    height:60px;
-
-    overflow:hidden;
-
-}
-
-
-/* ALTERAÇÃO 21/08 - BOTÕES SEMPRE NO FINAL DO CARD */
-
-.acoesCard{
-
-    margin-top:auto;
-
-    padding-top:15px;
-
-}
