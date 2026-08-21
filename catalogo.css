@@ -586,3 +586,71 @@ body{
 
 
 }
+
+/* ================================================= */
+/* ALTERAÇÃO 21/08 - ALINHAMENTO DOS CARDS CATÁLOGO */
+/* ================================================= */
+
+
+/* ALTERAÇÃO 21/08 - ORGANIZAR CARD EM COLUNA */
+
+.cardCatalogo{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+/* ALTERAÇÃO 21/08 - ÁREA INTERNA DO CARD */
+
+.infoCard{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+/* ALTERAÇÃO 21/08 - MESMO ESPAÇO PARA OS TÍTULOS */
+
+.infoCard h3{
+
+    min-height:44px;
+
+}
+
+
+/* ALTERAÇÃO 21/08 - MESMO ESPAÇO PARA OS DETALHES */
+
+.detalhes{
+
+    min-height:32px;
+
+}
+
+
+/* ALTERAÇÃO 21/08 - MESMO ESPAÇO PARA A DESCRIÇÃO */
+
+.descricao{
+
+    height:60px;
+
+    overflow:hidden;
+
+}
+
+
+/* ALTERAÇÃO 21/08 - BOTÕES SEMPRE NO FINAL DO CARD */
+
+.acoesCard{
+
+    margin-top:auto;
+
+    padding-top:15px;
+
+}
