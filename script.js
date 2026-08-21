@@ -87,3 +87,74 @@ import { filmes, series } from "./filmes.js";
     // INICIAR
     
     mostrar();
+
+    // ==============================================
+// ALTERAÇÃO 21/08 - REDIRECIONAR PARA O LOGIN
+// ==============================================
+
+function abrirLogin(){
+
+    window.location.href = "login.html";
+
+}
+
+
+// ALTERAÇÃO 21/08
+// BOTÕES ASSISTIR DOS FILMES E SÉRIES EM ALTA
+
+document.querySelectorAll(".btnPlay").forEach(function(botao){
+
+    botao.addEventListener("click", function(event){
+
+        event.preventDefault();
+
+        abrirLogin();
+
+    });
+
+});
+
+
+// ALTERAÇÃO 21/08
+// BOTÃO PRINCIPAL "ASSISTIR AGORA"
+
+const botaoAssistirAgora =
+    document.querySelector(".btnAssistir");
+
+
+if(botaoAssistirAgora){
+
+    botaoAssistirAgora.addEventListener(
+        "click",
+        function(){
+
+            abrirLogin();
+
+        }
+    );
+
+}
+
+
+// ALTERAÇÃO 21/08
+// FOTO DE PERFIL DA PÁGINA INICIAL
+
+const fotoPerfilInicio =
+    document.querySelector(".fotoPerfil");
+
+
+if(fotoPerfilInicio){
+
+    fotoPerfilInicio.style.cursor = "pointer";
+
+
+    fotoPerfilInicio.addEventListener(
+        "click",
+        function(){
+
+            abrirLogin();
+
+        }
+    );
+
+}
