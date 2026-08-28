@@ -10,9 +10,9 @@ export const filmes = [
 
         // ALTERAÇÃO 21/08 - INFORMAÇÕES COMPLEMENTARES
 
-        duracao: "PREENCHER",
-        genero: "PREENCHER",
-        classificacao: "PREENCHER",
+        duracao: "2h 20 min",
+        genero: "Ficção científica",
+        classificacao: "+10 anos",
     },
 
     {
@@ -24,9 +24,9 @@ export const filmes = [
 
         // ALTERAÇÃO 21/08 - INFORMAÇÕES COMPLEMENTARES
 
-        duracao: "PREENCHER",
-        genero: "PREENCHER",
-        classificacao: "PREENCHER",
+        duracao: "1h 30 min",
+        genero: "Suspense",
+        classificacao: "+16",
     },
 
     {
@@ -38,9 +38,9 @@ export const filmes = [
 
         // ALTERAÇÃO 21/08 - INFORMAÇÕES COMPLEMENTARES
 
-        duracao: "PREENCHER",
-        genero: "PREENCHER",
-        classificacao: "PREENCHER",
+        duracao: "2h 00 min",
+        genero: "Luta",
+        classificacao: "+14",
     },
 
     {
@@ -52,9 +52,9 @@ export const filmes = [
         
         // ALTERAÇÃO 21/08 - INFORMAÇÕES COMPLEMENTARES
 
-        duracao: "PREENCHER",
-        genero: "PREENCHER",
-        classificacao: "PREENCHER",
+        duracao: "1h 40 min",
+        genero: "Luta/Comédia",
+        classificacao: "+14",
     },
 
     {
@@ -83,7 +83,8 @@ export const filmes = [
         duracao: "PREENCHER",
         genero: "PREENCHER",
         classificacao: "PREENCHER",
-    }
+    },
+    
 ];
 
 export const series = [
