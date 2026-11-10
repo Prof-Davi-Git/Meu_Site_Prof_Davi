@@ -1,1 +1,1 @@
-CREATE DATABASE cadastro;
+SELECT * FROM usuarios;
