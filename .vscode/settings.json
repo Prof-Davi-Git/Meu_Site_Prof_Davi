@@ -13,6 +13,20 @@
             "name": "Bd site filmes",
             "database": "cadastro",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "usuarios ",
+            "username": "root",
+            "database": "cadastro"
         }
     ]
 }
